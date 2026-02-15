@@ -1,0 +1,13 @@
+# Secrets — never commit or push
+.env
+.env.local
+.env.*.local
+*.pem
+
+config.json
+*.log
+*.csv
+__pycache__/
+*.pyc
+.venv/
+venv/
